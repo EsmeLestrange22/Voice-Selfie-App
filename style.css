@@ -1,0 +1,15 @@
+body {
+    background-color: darkturquoise;
+    color: crimson;
+    font-family: cursive;
+    font-size: 28px;
+}
+#logo_cam {
+    width: 100px;
+    border-radius: 50px;
+}
+#camera1, #result {
+    width: 300px;
+    height: 250px;
+    border: 5px double black;
+}

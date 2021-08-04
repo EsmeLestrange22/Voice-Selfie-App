@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title> Voice Selfie App </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel= "stylesheet" href= "style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head> 
+<body>
+    <div class= "container">
+<center>
+    <a href= "" id= "link" download= "selfie.png"></a>
+    <h1 style= "color: navy"> Voice Selfie App <img src= "Cam.jpg" id= "logo_cam">  </h1> 
+    <hr>
+    <p> PLease Press Allow On Pop Up As Soon As It Comes </p>
+    <h3> Say: "Take my selfie!" </h3>
+    <label> Your Voice Output: </label>
+    <br> <br>
+    <textarea readonly= "true" id= "text_box"></textarea>
+    <br> <br>
+    <button class= "btn btn-danger" onclick= "start()"> Start </button>
+    <br> <br>
+    <h4> Press the start button to start the application! </h4>
+    <br> <br>
+    <p>Your Live Camera</p>
+   
+    <div id= "camera1"> </div>
+    <br> <br>
+    <p>Your clicked picture</p>
+    
+    <div id= "result"> </div>
+</center>
+    </div>
+</body>
+<script src= "main.js"></script>
+</html>
